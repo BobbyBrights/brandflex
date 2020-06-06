@@ -1,0 +1,12 @@
+.btn {
+	letter-spacing: .02em;
+	padding: 0 2rem;
+	border-radius: 10px;
+	font-weight: 600;
+	line-height: 3;
+	box-shadow: 0 12px 21px -11px rgba($black,.5);
+	transition: $transition-base;
+	&:hover {
+		transform: translateY(-4px);
+	}
+}

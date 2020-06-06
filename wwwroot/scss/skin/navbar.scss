@@ -1,0 +1,27 @@
+// NAVBAR
+.navbar {
+	background-color: rgba($black,0.6);
+    backdrop-filter: blur(20px);
+	padding: 0;
+	transition: $transition-base;
+	border-bottom: 1px solid rgba(51,51,51,0.75);
+	.navbar-brand {
+		opacity: .5;
+		transition: $transition-base;
+		&:hover {
+			opacity: 1;
+		}
+	}
+	.navbar-nav {
+		.nav-item {
+			text-align: center;
+			.nav-link {
+				padding: 0 1rem;
+				line-height: 50px;
+				cursor: pointer;
+				//font-size: 80%;
+				font-weight: 600;
+			}
+		}
+	}
+}

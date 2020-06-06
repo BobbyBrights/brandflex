@@ -1,0 +1,40 @@
+// BRANDBOOK
+.brandbook {
+	h2, h3, h4 {
+		pointer-events: none;
+		&:before {
+		    display: block;
+		    height: 4rem;
+		    margin-top: -4rem;
+		    content: "";
+		}
+	}
+	h2 {
+		margin-top: 3rem;
+	}
+	h3 {
+		margin-top: 1.5rem;
+	}
+
+	h4 {
+		a {
+			color: $body-color;
+		}
+	}
+	.lead {
+		max-width: 80%;
+	}
+	.case-study-content {
+		margin-top: 4rem;
+		.case-study-section {
+			.cs-content {
+				padding-top: 50px;
+			}
+		}
+	}
+	.highlight {
+		padding: 1.5rem;
+		margin-bottom: 1rem;
+		background-color: #f8f9fa;
+	}
+}

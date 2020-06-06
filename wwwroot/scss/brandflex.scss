@@ -1,0 +1,44 @@
+/*!
+ * Brandflex v1.0 (http://brandflex.co)
+ * Copyright 2020 Brandflex
+ */
+
+// Font Smoothing 
+@import "skin/base";
+
+// Fonts
+@import "fonts/gilroy";
+@import "fonts/brand";
+@import "fonts/tusker";
+ 
+// Bootstrap
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/utilities";
+@import "bootstrap/bootstrap"; 
+
+// Bootstrap Override
+@import "bootstrap-overrides/buttons";
+@import "bootstrap-overrides/cards";
+@import "bootstrap-overrides/colors";
+@import "bootstrap-overrides/forms";
+@import "bootstrap-overrides/media";
+
+// Vendor Overrides
+@import "vendor-overrides/slick";
+@import "vendor-overrides/slick-theme";
+
+// UI Skin
+@import "skin/animations";
+@import "skin/brandbook";
+@import "skin/helpers";
+@import "skin/layout";
+@import "skin/navbar";
+@import "skin/sidebar";
+
+// Pages
+@import "pages/cases";
+@import "pages/home";
+@import "pages/about";
+@import "pages/strategy";

@@ -1,0 +1,126 @@
+.case-study-hero {
+	
+}
+
+.case-study-achievements {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid $gray-200;
+}
+
+.case-study-content {
+	border-bottom: 1px solid $gray-200;
+	.case-study-section {
+		display: flex;
+		max-width: 1200px;
+		margin-right: auto;
+		margin-left: auto;
+		.case-study-section-left {
+			position: relative;
+			display: flex;
+			width: 200px;
+			-webkit-box-pack: center;
+			-webkit-justify-content: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			-webkit-box-align: start;
+			-webkit-align-items: flex-start;
+			-ms-flex-align: start;
+			align-items: flex-start;
+			.cs-study-section-left-icon {
+				position: -webkit-sticky;
+				position: sticky;
+				top: 0;
+				z-index: 2;
+				padding-top: 70px;
+				img {
+					
+				}
+			}
+			.cs-line {
+			    position: absolute;
+			    z-index: 1;
+			    width: 1px;
+			    height: 100%;
+			    background-color: $gray-200;
+			}
+		}
+		.cs-content {
+		    padding-top: 80px;
+		    padding-right: 100px;
+		    padding-bottom: 80px;
+		    -webkit-box-flex: 1;
+		    -webkit-flex: 1;
+		    -ms-flex: 1;
+		    flex: 1;
+		}
+	}
+}
+
+// MESSAGE
+.messages-chat {
+	margin-top: 4rem;
+	.message {
+	    display: flex;
+	    align-items: center;
+	    margin-bottom: 8px;
+	    position: relative;
+	    padding-left: 85px;
+	    &.right {
+		    padding-left: 0;
+		    padding-right: 85px;
+		    .photo {
+			    left: auto;
+			    right: 0;
+		    }
+		    .text {
+			    background-color: #e3effd;
+			    margin: 0 2rem 0 4rem;
+		    }
+	    }
+	    .photo {
+		    display: block;
+		    width: 85px;
+		    height: 85px;
+		    background: $gray-200;
+		    border-radius: 50%;
+		    background-position: center;
+		    background-size: cover;
+		    background-repeat: no-repeat;
+		    position: absolute;
+		    left: 0;
+		}
+		.online {
+		    position: relative;
+			top: 60px;
+			left: 71px;
+		    width: 13px;
+		    height: 13px;
+		    background-color: $green;
+		    border-radius: 13px;
+		    border: 3px solid #FAFAFA;
+		}
+		.text {
+		    margin: 0 4rem 0 2rem;
+		    background-color: #f6f6f6;
+		    padding: 15px;
+		    border-radius: 12px;
+		}
+    }
+}
+
+// IDEAS
+.ideas-slider {
+	position: relative;
+	max-width: 400px; 
+	margin: 0 auto;
+	.media {
+		img {
+			width: 40px;
+			border-radius: 50%;
+		}
+		.media-body {
+			line-height: 40px;
+		}
+	}
+}

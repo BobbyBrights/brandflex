@@ -1,0 +1,165 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    ViewBag.MetaDescription = "Home Page Description";
+}
+
+<section class="bg-black">
+	<div class="wrap vh-100">
+		<div class="content center-center text-white">
+			<h1 class="display-1">JP Fit</h1>
+			<div class="max-width mx-auto mt-4">
+				<div class="">We provide social media content creation services for brands that want remarkable results from their media investment.</div>
+			</div>
+			<a href="#contact" class="btn btn-primary mt-4">Get in touch</a>
+		</div>
+	</div>
+</section>
+
+<section class="case-study-achievements">
+	
+</section>
+
+<section class="case-study-content">
+	<div class="case-study-section">
+		<div class="case-study-section-left">
+			<div class="cs-study-section-left-icon">
+				<img src="~/images/logo/brand-inner-color.svg" width="40px" alt="">
+			</div>
+			<div class="cs-line"></div>
+		</div>
+		<div class="cs-content">
+			<h2 class="h1 mb-5">Remote fitness on major social platforms</h2>
+			<p>Jp reached out to Brandflex to help with designs and content for a new venture. A new way of communicating his services and expertise. A new way of doing remote fitness from all major social platforms.</p>
+			
+			<div class="messages-chat">
+				<div class="message mb-5">
+					<div class="photo" style="background-image: url('');">
+						<div class="online"></div>
+					</div>
+					<p class="text">Hey guys, I am looking for a fresh new look and feel on all my social platforms. Do you think you can help?</p>
+				</div>
+				
+				<div class="message right">
+					<div class="photo" style="background-image: url('');">
+						<div class="online"></div>
+					</div>
+					<p class="text">Definitely JP. We've helped a couple of brands doing exactly that, getting their content out there and work out a strategy for them to follow. Let's have a chat!</p>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class="case-study-section">
+		<div class="case-study-section-left">
+			<div class="cs-study-section-left-icon">
+				<img src="~/images/logo/brand-inner-color.svg" width="40px" alt="">
+			</div>
+			<div class="cs-line"></div>
+		</div>
+		<div class="cs-content">
+			<h2 class="h1 mb-5">We helped JP rapidly iterate on his initial ideas and designs</h2>
+			<p>Meh taiyaki sriracha thundercats blue bottle deep v tattooed lumbersexual shabby chic church-key keytar air plant street art godard. </p>
+			<p>Pinterest ramps gluten-free unicorn narwhal, echo park etsy yuccie sustainable leggings migas.</p>
+			
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="ideas-slider">
+							<div class="card mb-3">
+								<div class="media p-2">
+									<img src="~/images/jp/don-fav.jpg" class="align-self-center mr-3" alt="...">
+									<div class="media-body">
+										donsaladino
+									</div>
+								</div>
+								<div class="ideas-one mb-0">
+									<div><img src="~/images/jp/don-1.jpg" class="img-fluid" alt=""></div>
+									<div><img src="~/images/jp/don-2.jpg" class="img-fluid" alt=""></div>
+									<div><img src="~/images/jp/don-3.jpg" class="img-fluid" alt=""></div>
+								</div>
+								<div class="py-1 px-2">
+									<ul class="list-inline mb-0">
+										<li class="list-inline-item"><i class="fal fa-heart"></i></li>
+										<li class="list-inline-item"><i class="fal fa-comment"></i></li>
+										<li class="list-inline-item"><i class="fal fa-paper-plane"></i></li>
+										<li class="list-inline-item float-right"><i class="fal fa-bookmark"></i></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="ideas-slider">
+							<div class="card mb-3">
+								<div class="media p-2">
+									<img src="~/images/jp/virgin-fav.jpg" class="align-self-center mr-3" alt="...">
+									<div class="media-body">
+										virginactive
+									</div>
+								</div>
+								<div class="ideas-two mb-0">
+									<div><img src="~/images/jp/virgin-active-1.jpg" class="img-fluid" alt=""></div>
+									<div><img src="~/images/jp/virgin-active-2.jpg" class="img-fluid" alt=""></div>
+									<div><img src="~/images/jp/virgin-active-3.jpg" class="img-fluid" alt=""></div>
+								</div>
+								<div class="py-1 px-2">
+									<ul class="list-inline mb-0">
+										<li class="list-inline-item"><i class="fal fa-heart"></i></li>
+										<li class="list-inline-item"><i class="fal fa-comment"></i></li>
+										<li class="list-inline-item"><i class="fal fa-paper-plane"></i></li>
+										<li class="list-inline-item float-right"><i class="fal fa-bookmark"></i></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	<div class="case-study-section">
+		<div class="case-study-section-left">
+			<div class="cs-study-section-left-icon">
+				<img src="~/images/logo/brand-inner-color.svg" width="40px" alt="">
+			</div>
+			<div class="cs-line"></div>
+		</div>
+		<div class="cs-content">
+			<h2 class="h1 mb-5">Project Summary</h2>
+			<p>Jp reached out to Brandflex to help with designs and content for a new venture. A new way of communicating his services and expertise. A new way of doing remote fitness from all major social platforms.</p>
+			
+
+			
+		</div>
+	</div>
+	
+</section>
+
+
+
+@section Scripts {
+	<script src="~/vendors/slick/slick.min.js"></script>
+	<script>
+		$('.ideas-one').slick({
+		  dots: true,
+		  infinite: true,
+		  speed: 500,
+		  fade: true,
+		  cssEase: 'linear'
+		});
+		$('.ideas-two').slick({
+		  dots: true,
+		  infinite: true,
+		  speed: 500,
+		  fade: true,
+		  cssEase: 'linear'
+		});
+	</script>
+}
+
+@section Modals {
+	
+}
