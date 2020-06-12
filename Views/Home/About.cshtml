@@ -4,9 +4,30 @@
 }
 
 
-<section class="about-intro">
+<section class="vh-100 intro bg-black">
+	
+	<section class="wrap vh-100">
+		<div class="content center-center">
+			<h1 class="display-1 mt-4 text-white">Heita, Howzit, Dumela, Hallo<br>I’m Werner🔥</h1>
+			<a href="https://calendly.com/brandflex/branding" target="_blank" class="btn btn-primary mt-4"><i class="fas fa-headset mr-2"></i>Book a FREE Brand Discovery Call</a>
+		</div>
+	</section>
+	
+	<div id="container">
+		<video id="background_video" loop muted></video>
+		<div id="video_cover"></div>
+		<div id="overlay"></div>
+		<div id="video_controls">
+			<span id="play"><img src="play.png"></span>
+			<span id="pause"><img src="pause.png"></span>
+		</div>
+	</div>
+	
+</section>
+@*
+<section class="about-intro bg-black">
 	<div class="container-fluid">
-		<h2 class="display-2">Werner Griesel,<br>not just a<br>UX designer</h2>
+		<h2 class="display-1 text-white">Werner,<br>not just a<br>UX designer🔥</h2>
 		<div class="row">
 			<div class="col-md-9 ml-auto">
 				<img src="~/images/about/werner_griesel.jpg" class="img-fluid parallax">
@@ -15,8 +36,8 @@
 		</div>
 	</div>
 </section>
-
-<section class="work">
+*@
+<section class="section work">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-7 relative">
@@ -24,31 +45,25 @@
 				<img class="circle-badge" src="~/images/about/developer.svg">
 			</div>
 			<div class="col-md-5 ml-auto">
-				<h5 class="mt-5 wow fadeIn">What i do</h5>
-				<h3 class="display-4 mt-4 text-blue">My Why?</h3>
-				<div class="lead mt-5 wow fadeIn">
+				<h3 class="display-3">My Why?</h3>
+				<div class="mt-5 wow fadeIn">
 					<p>Heita, Howzit, Dumela, Hallo I’m Werner and I’m a UX designer since before birth but officially since always.</p>
-					<p><mark>As a User Experience (UX) evangelist, I help businesses, creative entrepreneurs and students grow high-converting businesses and websites through UX strategy.</mark></p> 
+					<p><b>As a User Experience (UX) evangelist, I help businesses, creative entrepreneurs and students grow high-converting businesses and websites through UX strategy.</b></p> 
 					<p>I love telling stories; I love getting into the dirt with what makes a user, a company, a client or a brand tick.</p>
 					<p>I am a firm believer that a brand and the end user are the main characters of their own hero’s journey and these paths cross several times.</p>
-					<p>Armed with strategic thinking, making memorable visual identities I will ensure your brand and business stand the test of time.</p>
+					<p class="mb-0">Armed with strategic thinking, making memorable visual identities I will ensure your brand and business stand the test of time.</p>
 				</div>
-				<div class="mt-5"><a href="/services" class="btn btn-primary">View all services</a></div>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="experience">
+<section class="section experience bg-light">
 	<div class="container-fluid">
+
 		<div class="row">
-			<div class="col-md-12">
-				<h5 class="wow fadeIn">About me</h5>
-				<h3 class="display-1 mt-4">User Experience</h3>
-			</div>
-		</div>
-		<div class="row mt-5">
 			<div class="col-md-6">
+				<h3 class="display-3 mb-5">User Experience</h3>
 				<div class="lead wow fadeIn">
 					<p class="">Currently, I serve in a role as UX Manager at <a href="http://dotslash.digital/" target="_blank">Dotslash Digital</a> where I lead a talented (and growing) team of UXers, Designers, Front-end pirates and Strategy specialists to disrupt in various industries.</p>
 					<p class="">As an experience designer with a background in Communication Science and Fine Arts, I design thoughtful user experiences across a range of digital products, including everything from e-commerce and classifieds to accommodation platforms and the odd company profile.</p>
@@ -59,7 +74,7 @@
 				<div class="mt-5 wow fadeIn" data-wow-delay="0.5s"><a href="/work" class="btn btn-primary">View some projects</a></div>
 			</div>
 			<div class="col-md-5 ml-auto">
-				<div class="mt-5 wow fadeIn relative" data-wow-delay="0.5s">
+				<div class="wow fadeIn relative" data-wow-delay="0.5s">
 					<div class="relative">
 						
 						<img class="circle-badge" src="~/images/about/learn.svg">
@@ -107,6 +122,14 @@
 	</div>
 </section>
 
+<section class="insta">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col">
+	</div>	
+</section>
+
+@*
 <section class="toolbox">
 	<div class="container-fluid">
 		<div class="heading text-center">
@@ -209,7 +232,7 @@
 	</div>
 </section>
 
-<section class="me">
+<section class="section me">
 	<div class="container-fluid">
 		<div class="heading">
 			<h5 class="mt-5 mb-0 wow fadeIn">Content Creator &amp;</h5>
@@ -224,11 +247,6 @@
 		</div>
 	</div>
 </section>
-
-<div class="text-center mt-5">
-	<div><img src="~/images/signature.svg" style="width: 100px"></div>
-</div>
-
 
 <section class="intro d-none">
 	<div class="container-fluid">
@@ -250,9 +268,17 @@
 		</div>
 	</div>
 </section>
-
+*@
 
 @section Scripts {
+	<script src="~/vendors/bideo/bideo.js"></script>
+	<script src="~/vendors/bideo/main.js"></script>
+	<script src="~/vendors/simpleParallax/simpleParallax.min.js"></script>
+	<script>
+		// Parallax images
+		var image = document.getElementsByClassName('parallax');
+		new simpleParallax(image);
+	</script>
 	<script src="~/vendors/scrollMove/scrollMove.js"></script>
 	<script>
 	   scrollMove('.items',60 ,1 );

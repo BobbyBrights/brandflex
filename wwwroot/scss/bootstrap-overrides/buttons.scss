@@ -9,4 +9,19 @@
 	&:hover {
 		transform: translateY(-4px);
 	}
+	@include media-breakpoint-down(md) {
+		box-shadow: none;
+		padding: 0 1rem;
+		display: block;
+		width: 100%;
+	}
+}
+
+.btn-small {
+    box-shadow: none;
+    line-height: 2;
+    border-radius: 3rem;
+	&:hover {
+		transform: none;
+	}
 }

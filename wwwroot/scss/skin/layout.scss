@@ -42,11 +42,19 @@ body {
 	&.full {
 		max-width: none;
 	}
+	@include media-breakpoint-down(md) {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
 }
 
 // SECTION
 .section {
 	padding: 120px 0;
+	@include media-breakpoint-down(md) {
+		padding: 4rem 0;
+	}
 }
 
 
@@ -60,7 +68,7 @@ body {
     display: table;
     z-index: 3;
     .max-width {
-	    max-width: 600px; 
+	    max-width: 550px; 
     }
     &.container {
 	    margin-left: auto;
@@ -326,39 +334,20 @@ body {
 
 
 // FOOTER
-.credit {
-	padding: 4vw 9vw;
-	@include media-breakpoint-down(md) {
-		padding: 4vw 0;
-	}
-    text-align: center;
-    .role {
+.social {
+	a {
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		border-radius: 50%;
+		text-align: center;
 		display: inline-block;
-		margin-right: 2vw;
-		p {
-			display: inline-block;
-			font-size: .9vw;
-			line-height: 1vw;
-			text-align: right;
-			text-transform: uppercase;
-		}
-		div, a {
-			margin-left: .5vw;
-			font-family: "Tusker";
-			font-size: 5vw;
-			@include media-breakpoint-down(md) {
-				font-size: 6vw;
-			}
-			line-height: 6vw;
-			font-weight: 500;
-			letter-spacing: 0;
-			text-transform: uppercase;
-			display: inline-block;
-			letter-spacing: -.04em;
-			color: rgba($body-color,0.8);
-			&:hover {
-				color: $body-color;
-			}
-		}
-    }
+		background: $white;
+		transition: $transition-base;
+		margin: 0 .25rem;
+		&:hover {
+		    box-shadow: 0 12px 21px -11px rgba($black,.5);
+		    transform: translateY(-4px);
+	    }
+	}
 }

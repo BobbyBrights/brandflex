@@ -1,10 +1,9 @@
 .about-intro {
 	position: relative;
 	padding: 180px 0 120px;
-	.display-2 {
+	.display-1 {
 		position: relative;
 		z-index: 2;
-		mix-blend-mode: difference;
 		@include media-breakpoint-up(md) {
 			position: absolute;
 			top: 50%;
@@ -12,58 +11,19 @@
 			transform: translateY(-50%);
 		}
 	}
-	.container-fluid {
-		&:after {
-			content: "";
-			background: $gray-400;
-			height: 50%;
-			width: 2px;
-			position: absolute;
-			left: 100px;
-			top: 50%;
-			margin-top: 140px;
-			mix-blend-mode: difference;
-		}
-	}
 	.circle-badge {
 		position: absolute;
 		right: -1rem;
 		bottom: -2rem;
 		width: 100px;
-		mix-blend-mode: color-dodge;
 	}
 }
 
 .work {
-	padding: 120px 0;
-	.container-fluid {
-		&:after {
-			content: "";
-			background: $gray-400;
-			height: 10%;
-			width: 2px;
-			position: absolute;
-			left: 50%;
-			bottom: -120px;
-			margin-top: 180px;
-			mix-blend-mode: difference;
-			@include media-breakpoint-up(md) {
-				top: 50%;
-				height: 40%;
-			}
-		}
-	}
 	.display-4 {
-		font-size: 8vw;
+		//font-size: 8vw;
 		position: relative;
 		z-index: 3;
-		mix-blend-mode: difference;
-		@include media-breakpoint-up(md) {
-			margin-left: -19.5vw;
-		}
-	}
-	.h4 {
-		text-transform:none;
 	}
 	.circle-badge {
 		position: absolute;
@@ -71,7 +31,6 @@
 	    top: -2rem;
 		width: 100px;
 		z-index: 4;
-		mix-blend-mode: color-burn;
 	}
 }
 
@@ -85,7 +44,6 @@
 	    top: -2rem;
 		width: 100px;
 		z-index: 4;
-		mix-blend-mode: color-burn;
 	}
 	.position {
 		margin-bottom: 1rem;
@@ -199,11 +157,9 @@
 }
 
 .me {
-	padding: 120px 0;
 	.heading {
 		position: relative;
 		z-index: 2;
-		mix-blend-mode: difference;
 		h3 {
 			font-size: 10vw;
 		}
@@ -214,25 +170,12 @@
 			transform: translateY(-50%);
 		}
 	}
-	.container-fluid {
-		&:after {
-			content: "";
-			background: $gray-400;
-			height: 40%;
-			width: 2px;
-			position: absolute;
-			left: 50%;
-			top: 50%;
-			margin-top: 180px;
-		}
-	}
 	.circle-badge {
 		position: absolute;
 		right: -1rem;
 		top: -2rem;
 		width: 100px;
 		z-index: 4;
-		mix-blend-mode: luminosity;
 	}
 }
 

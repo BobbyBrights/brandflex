@@ -5,14 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Brandflex</title>
     
-    @if (!string.IsNullOrEmpty(ViewBag.MetaDescription))
-    {
-        <meta name="description" content="@ViewBag.MetaDescription">
-    }
-    else
-    {
-        <meta name="description" content="UX Storyteller, Content Creation and Digital Product Design">
-    }
+    <meta name="description" content="UX Storyteller, Content Creation and Digital Product Design">
+	<meta name="keywords" content="Logo Designer, Graphic Designer, Graphic Design Portfolio, Logo Design, Logo, Graphic, Design, Graphic Design, Freelance, Brand Identity, Branding, Strategy, Brand Strategy," />
     
     <!-- Meta -->
     <partial name="Meta" />
@@ -29,15 +23,21 @@
 	<!-- Core Style -->
     <link rel="stylesheet" href="~/css/brandflex.css" />
     
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168789285-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	
+	  gtag('config', 'UA-168789285-1');
+	</script>
+
+    
 </head>
 <body>
 	
 	<partial name="Navigation" />
-    
-    <div class="frame top"></div>
-    <div class="frame right"></div>
-    <div class="frame bottom"></div>
-    <div class="frame left"></div>
     
     @RenderBody()
 
