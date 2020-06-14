@@ -7940,10 +7940,9 @@ button.close {
 
 .btn {
   letter-spacing: .02em;
-  padding: 0 2rem;
-  border-radius: 10px;
+  padding: 0.55rem 2rem;
+  border-radius: 6px;
   font-weight: 600;
-  line-height: 3;
   box-shadow: 0 12px 21px -11px rgba(0, 0, 0, 0.5);
   transition: all 0.2s ease-in-out; }
   .btn:hover {
@@ -7956,7 +7955,7 @@ button.close {
       width: 100%; } }
 .btn-small {
   box-shadow: none;
-  line-height: 2;
+  line-height: 1;
   border-radius: 3rem; }
   .btn-small:hover {
     transform: none; }
