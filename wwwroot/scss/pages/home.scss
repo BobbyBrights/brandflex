@@ -136,6 +136,21 @@
 			height: 300px;
 		}
     }
+    &.box-v {
+	    background:radial-gradient(circle, lighten($primary,10%) 0%, $primary 100%);
+	    .right {
+		    background-image: url("../images/home/teaser-brandbook.png");
+		}
+		&:hover {
+			transform: none;
+			box-shadow: none;
+		}
+		.btn {
+			&:hover {
+				transform: translateY(-4px);
+			}
+		}
+    }
 }
 
 

@@ -9157,6 +9157,15 @@ body {
       bottom: 0;
       top: auto;
       height: 300px; }
+  .box.box-v {
+    background: radial-gradient(circle, #ff3a60 0%, #ff0737 100%); }
+    .box.box-v .right {
+      background-image: url("../images/home/teaser-brandbook.png"); }
+    .box.box-v:hover {
+      transform: none;
+      box-shadow: none; }
+    .box.box-v .btn:hover {
+      transform: translateY(-4px); }
 
 .triangle-holder .arrow-up {
   width: 0px;
