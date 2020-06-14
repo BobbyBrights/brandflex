@@ -1948,9 +1948,9 @@ progress {
   .form-check-input:checked {
     background-color: #ff0737;
     border-color: #ff0737; }
-    .form-check-input:checked[type="checkbox"] {
+    .form-check-input[type="checkbox"]:checked {
       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10l3 3l6-6'/%3e%3c/svg%3e"); }
-    .form-check-input:checked[type="radio"] {
+    .form-check-input[type="radio"]:checked {
       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e"); }
   .form-check-input[type="checkbox"]:indeterminate {
     background-color: #ff0737;
@@ -9053,6 +9053,35 @@ body {
 .intro .lead {
   font-size: 1rem;
   font-weight: 600; }
+
+.service .circle-badge {
+  position: absolute;
+  right: -1rem;
+  top: -2rem;
+  width: 100px; }
+
+.contact-card .circle-badge {
+  position: absolute;
+  right: -1rem;
+  top: -2rem;
+  width: 100px; }
+
+#cookieConsent {
+  position: fixed;
+  bottom: 1rem;
+  width: 80%;
+  max-width: 500px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(29, 29, 31, 0.72);
+  backdrop-filter: saturate(180%) blur(20px);
+  color: #fff;
+  z-index: 2000;
+  font-size: 80%;
+  padding: 1rem 2.5rem 1rem 1rem; }
+  #cookieConsent .close {
+    padding: .5rem;
+    font-size: 1rem; }
 
 .box {
   min-height: 270px;

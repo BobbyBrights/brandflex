@@ -9,6 +9,44 @@
 	}
 }
 
+.service {
+	.circle-badge {
+		position: absolute;
+		right: -1rem;
+		top: -2rem;
+		width: 100px;
+	}
+}
+
+.contact-card {
+	.circle-badge {
+		position: absolute;
+		right: -1rem;
+		top: -2rem;
+		width: 100px;
+	}
+}
+
+
+#cookieConsent {
+	position: fixed;
+	bottom: 1rem;
+	width: 80%;
+	max-width: 500px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: rgba(29, 29, 31, 0.72);
+	backdrop-filter: saturate(180%) blur(20px);
+	color: $white;
+	z-index: 2000;
+	font-size: 80%;
+	padding: 1rem 2.5rem 1rem 1rem;
+	.close {
+		padding: .5rem;
+		font-size: 1rem;
+	}
+}
+
 
 .box {
 	min-height: 270px;
