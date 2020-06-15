@@ -7977,6 +7977,13 @@ button.close {
 .contact-card .form-group {
   margin-bottom: 1rem; }
 
+.form-control {
+  border-width: 2px;
+  outline: none; }
+  .form-control:focus {
+    border-color: #ff0737;
+    box-shadow: none; }
+
 .media {
   display: flex;
   align-items: flex-start; }
@@ -9158,7 +9165,7 @@ body {
       top: auto;
       height: 300px; }
   .box.box-v {
-    background: radial-gradient(circle, #ff3a60 0%, #ff0737 100%); }
+    background: radial-gradient(circle, #F1F1F4 0%, #dee2e6 100%); }
     .box.box-v .right {
       background-image: url("../images/home/teaser-brandbook.png"); }
     .box.box-v:hover {

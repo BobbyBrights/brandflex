@@ -136,8 +136,8 @@
 			height: 300px;
 		}
     }
-    &.box-v {
-	    background:radial-gradient(circle, lighten($primary,10%) 0%, $primary 100%);
+    &.box-v { 
+	    background:radial-gradient(circle, $gray-100 0%, $gray-300 100%); 
 	    .right {
 		    background-image: url("../images/home/teaser-brandbook.png");
 		}

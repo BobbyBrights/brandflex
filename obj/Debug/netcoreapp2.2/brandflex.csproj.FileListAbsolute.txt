@@ -54,3 +54,4 @@
 /Users/wernergriesel/Projects/brandflex/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.cshtml.g.cs
 /Users/wernergriesel/Projects/brandflex/obj/Debug/netcoreapp2.2/Razor/Views/Home/terms.cshtml.g.cs
 /Users/wernergriesel/Projects/brandflex/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Services.cshtml.g.cs
+/Users/wernergriesel/Projects/brandflex/obj/Debug/netcoreapp2.2/Razor/Views/Shared/NavigationClean.cshtml.g.cs
