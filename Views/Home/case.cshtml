@@ -1,16 +1,17 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
-    ViewBag.MetaDescription = "Home Page Description";
+    ViewData["Title"] = "JP Fit";
+    ViewBag.MetaDescription = "We provide social media content creation services for brands that want remarkable results from their media investment.";
 }
 
-<section class="bg-black">
-	<div class="wrap vh-100">
-		<div class="content center-center text-white">
-			<h1 class="display-1">JP Fit</h1>
+<section class="vh-80">
+	<div class="wrap">
+		<div class="content center-center">
+			<img src="~/images/logo/brand-brandmark-color.svg" height="60px">
+			<h1 class="display-1 mt-4">@ViewData["Title"].</h1>
 			<div class="max-width mx-auto mt-4">
-				<div class="">We provide social media content creation services for brands that want remarkable results from their media investment.</div>
+				<div class="">@ViewBag.MetaDescription</div>
 			</div>
-			<a href="#contact" class="btn btn-primary mt-4">Get in touch</a>
+			<a href="" class="btn btn-primary mt-4"><i class="fas fa-headset mr-2"></i>CTA</a>
 		</div>
 	</div>
 </section>

@@ -1,62 +1,42 @@
 ﻿@{
-    ViewData["Title"] = "About Me";
+    ViewData["Title"] = "Hi, I'm Werner";
     ViewBag.MetaDescription = "Home Page Description";
 }
 
 
-<section class="vh-100 intro bg-black">
-	
-	<section class="wrap vh-100">
+<section class="vh-80">
+	<div class="wrap">
 		<div class="content center-center">
-			<h1 class="display-1 mt-4 text-white">Heita, Howzit, Dumela, Hallo<br>I’m Werner🔥</h1>
-			<a href="https://calendly.com/brandflex/branding" target="_blank" class="btn btn-primary mt-4"><i class="fas fa-headset mr-2"></i>Book a FREE Brand Discovery Call</a>
-		</div>
-	</section>
-	
-	<div id="container">
-		<video id="background_video" loop muted></video>
-		<div id="video_cover"></div>
-		<div id="overlay"></div>
-		<div id="video_controls">
-			<span id="play"><img src="play.png"></span>
-			<span id="pause"><img src="pause.png"></span>
-		</div>
-	</div>
-	
-</section>
-@*
-<section class="about-intro bg-black">
-	<div class="container-fluid">
-		<h2 class="display-1 text-white">Werner,<br>not just a<br>UX designer🔥</h2>
-		<div class="row">
-			<div class="col-md-9 ml-auto">
-				<img src="~/images/about/werner_griesel.jpg" class="img-fluid parallax">
-				<img class="circle-badge" src="~/images/about/designer.svg">
+			<img src="~/images/logo/brand-brandmark-color.svg" height="60px">
+			<h1 class="display-1 mt-4">@ViewData["Title"].</h1>
+			<div class="max-width mx-auto mt-4">
+				<div class="">@ViewBag.MetaDescription</div>
 			</div>
+			<a href="" class="btn btn-primary mt-4"><i class="fas fa-headset mr-2"></i>CTA</a>
 		</div>
 	</div>
 </section>
-*@
-<section class="section work">
+
+<section id="work" class="section work">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-md-7 relative">
-				<img src="~/images/about/work.png" class="img-fluid parallax">
-				<img class="circle-badge" src="~/images/about/developer.svg">
+			<div class="col-md-6 relative my-5">
+				<a href="https://www.instagram.com/brandflex.co/" target="_blank"><img src="~/images/about/me.jpg" class="img-fluid parallax"></a>
+				<img class="circle-badge" src="~/images/about/role.svg">
 			</div>
 			<div class="col-md-5 ml-auto">
-				<h3 class="display-3">My Why?</h3>
-				<div class="mt-5 wow fadeIn">
+				<h2 class="display-4 mb-4">Hi I'm Werner.</h2>
 					<p>Heita, Howzit, Dumela, Hallo I’m Werner and I’m a UX designer since before birth but officially since always.</p>
-					<p><b>As a User Experience (UX) evangelist, I help businesses, creative entrepreneurs and students grow high-converting businesses and websites through UX strategy.</b></p> 
+					<p><b>As a Brand master and User Experience evangelist, I help businesses, creative entrepreneurs and students grow high-converting businesses and brands through Brand Strategy.</b></p> 
 					<p>I love telling stories; I love getting into the dirt with what makes a user, a company, a client or a brand tick.</p>
 					<p>I am a firm believer that a brand and the end user are the main characters of their own hero’s journey and these paths cross several times.</p>
-					<p class="mb-0">Armed with strategic thinking, making memorable visual identities I will ensure your brand and business stand the test of time.</p>
-				</div>
+					<p>Armed with strategic thinking, making memorable visual identities I will ensure your brand and business stand the test of time.</p>
+					<a href="https://www.instagram.com/brandflex.co/?utm_source=website&utm_medium=button&utm_campaign=instagram" target="_blank" class="btn btn-dark mt-4 gtm-instagram"><i class="fab fa-instagram mr-2" aria-hidden="true"></i>Follow on Instagram</a>
 			</div>
 		</div>
 	</div>
 </section>
+
 
 <section class="section experience bg-light">
 	<div class="container-fluid">
@@ -271,8 +251,6 @@
 *@
 
 @section Scripts {
-	<script src="~/vendors/bideo/bideo.js"></script>
-	<script src="~/vendors/bideo/main.js"></script>
 	<script src="~/vendors/simpleParallax/simpleParallax.min.js"></script>
 	<script>
 		// Parallax images

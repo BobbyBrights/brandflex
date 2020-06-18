@@ -1,0 +1,93 @@
+﻿<section class="synergy bg-light">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h2 class="display-4 mb-5">Brand Discovery.</h2>
+				
+				<div class="circle-holder">
+	                <div class="circle circle_one"></div>
+	                <div class="circle circle_two"></div>
+	                <div class="circle circle_three"></div>
+	                <div class="circle circle_four"></div>
+	                <div class="circle circle_five">
+	                    <span class="text text-white">
+	                     	<div class="h2 m-0">New<br>Brand</div>
+	                    </span>
+	                </div>
+	                <div class="s_promo_info">
+	                    <a href="/internal-branding" class="group-name item_one go-go">
+	                        <div class="text">
+		                        <i class="fad fa-heart text-primary fa-2x"></i>
+	                            <p>Internal Branding</p>
+	                        </div>
+	                    </a>
+	                    <a href="/audience-persona" class="group-name item_two go-go">
+	                        <div class="text">
+		                        <i class="fad fa-atlas text-primary fa-2x"></i>
+	                            <p>Audience Persona</p>
+	                        </div>
+	                    </a>
+	                    <a href="/competitive-profile" class="group-name item_three go-go">
+	                        <div class="text">
+		                        <i class="fad fa-desktop text-primary fa-2x"></i>
+	                            <p>Competitive Analysis</p>
+	                        </div>
+	                    </a>
+	                    <a href="/differentiate-strategy" class="group-name item_four go-go">
+	                        <div class="text">
+		                        <i class="fad fa-book-spells text-primary fa-2x"></i>
+	                            <p>Position Strategy</p>
+	                        </div>
+	                    </a>
+	                    <a href="/human-persona" class="group-name item_five go-go">
+	                        <div class="text">
+		                        <i class="fad fa-magic text-primary fa-2x"></i>
+	                            <p>Human Persona</p>
+	                        </div>
+	                    </a>
+	                    <a href="/tagline" class="group-name item_six go-go">
+	                        <div class="text">
+		                        <i class="fad fa-code-branch text-primary fa-2x"></i>
+		                        <p>Tagline</p>
+	                        </div>
+	                    </a>
+	                    <a href="/brand-voice" class="group-name item_seven go-go">
+	                        <div class="text">
+		                        <i class="fad fa-comment-alt-smile text-primary fa-2x"></i>
+		                        <p>Presence Strategy</p>
+	                        </div>
+	                    </a>
+	                    <a href="/core-message-framework" class="group-name item_eight go-go">
+	                        <div class="text">
+	                            <i class="fad fa-alicorn text-primary fa-2x"></i>
+	                            <p>Message Framework</p>
+	                        </div>
+	                    </a>
+	                    <a href="/storytelling-framework" class="group-name item_nine go-go">
+	                        <div class="text">
+		                        <i class="fad fa-users-crown text-primary fa-2x"></i>
+	                            <p>Story Framework</p>
+	                        </div>
+	                    </a>
+	                    <a href="/brand-identity-system" class="group-name item_ten go-go">
+	                        <div class="text">
+		                        <i class="fad fa-users-crown text-primary fa-2x"></i>
+	                            <p>Brand Identity System</p>
+	                        </div>
+	                    </a>
+	                </div>
+	            </div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+@section Scripts {
+	<script src="~/vendors/in-view/in-view.min.js"></script>
+	<script>
+	   inView('.go-go')
+	    .on('enter', el => el.classList.add('in-view'));
+	    //.on('exit', el => el.classList.remove('in-view'));
+    </script>
+}

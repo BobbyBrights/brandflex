@@ -1,21 +1,28 @@
-﻿<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+﻿<nav class="navbar navbar-expand-lg navbar-light fixed-top">
 	<div class="container-fluid">
 		<a class="navbar-brand" href="/"><img src="~/images/logo/brand-brandmark-color.svg" height="30px" class="mr-2">brandflex</a>
-		<a class="contact" href="#contact"><i class="fas fa-comment-smile mr-2"></i>Get in touch</a>
-
-		@*
-		<div class="collapse navbar-collapse" id="navbarNav">
-			<ul class="navbar-nav navbar-nav-hover ml-auto">
-				
-				<li class="nav-item"><a class="nav-link" href="/brand-discovery">Brand Discovery</a></li>
+		
+		<button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<i class="fal fa-ellipsis-v-alt"></i>
+		</button>
+	
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    	<ul class="navbar-nav navbar-nav-hover ml-auto">
+	            <li class="nav-item"><a class="nav-link" href="/brand-discovery">Discovery</a></li>
 				<li class="nav-item"><a class="nav-link" href="/social-media-content">Social Content</a></li>
-				<li class="nav-item"><a class="nav-link" href="/content-workshop">Workshops</a></li>
+				<li class="nav-item"><a class="nav-link" href="/brand-story">Brand Story</a></li>
 				<li class="nav-item"><a class="nav-link" href="/about">About</a></li>
-				<li class="nav-item"><a class="nav-link" href="/contact">Get in touch</a></li>
-				<li class="nav-item"><a class="nav-link" href=""><i class="fas fa-search"></i></a></li>
-				
-			</ul>
-		</div>
-		*@
+				<li class="nav-item"><a class="nav-link" href="/blog">Blog</a></li>
+				<li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Extras</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<a class="dropdown-item" href="/case">Case</a>
+					<a class="dropdown-item" href="/thank-you">Thank You</a>
+					<a class="dropdown-item" href="/book-a-call">Book a call</a>
+					<a class="dropdown-item" href="/branflex-brandbook">Brandbook</a>
+				</li>
+	        </ul>
+	  	</div>
 	</div>
 </nav>

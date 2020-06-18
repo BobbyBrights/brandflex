@@ -1,26 +1,22 @@
 .btn {
 	letter-spacing: .02em;
-	padding: 0.55rem 2rem;
+	padding-left: 1.75rem;
+	padding-right: 1.75rem;
 	border-radius: 6px;
 	font-weight: 600;
-	box-shadow: 0 12px 21px -11px rgba($black,.5);
 	transition: $transition-base;
 	&:hover {
 		transform: translateY(-4px);
+		box-shadow: 0 12px 21px -11px rgba($black,.5);
 	}
 	@include media-breakpoint-down(md) {
-		box-shadow: none;
-		padding: 0 1rem;
-		display: block;
-		width: 100%;
+		//box-shadow: none;
+		//padding: 0 1rem;
+		//display: block;
+		//width: 100%;
 	}
-}
-
-.btn-small {
-    box-shadow: none;
-    line-height: 1;
-    border-radius: 3rem;
-	&:hover {
-		transform: none;
+	&.btn-sm {
+		box-shadow: none;
+		border-radius: 3rem;
 	}
 }

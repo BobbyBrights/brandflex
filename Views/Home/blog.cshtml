@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Blog";
+    ViewBag.MetaDescription = "Home Page Description";
+}
+
+
+<section class="vh-80">
+	<div class="wrap">
+		<div class="content center-center">
+			<img src="~/images/logo/brand-brandmark-color.svg" height="60px">
+			<h1 class="display-1 mt-4">@ViewData["Title"].</h1>
+			<div class="max-width mx-auto mt-4">
+				<div class="">@ViewBag.MetaDescription</div>
+			</div>
+			<a href="" class="btn btn-primary mt-4"><i class="fas fa-headset mr-2"></i>CTA</a>
+		</div>
+	</div>
+</section>
+
+<section class="section pt-0">
+	<div class="container-fluid body-container">
+	    <div class="row justify-content-center">
+	        <div class="col-12">
+		        
+		        <div class="articles">
+			        <div class="row">
+				        
+		                <article class="col-md-4">
+			                <div class="article mb-4">
+				                
+		                        <a href="/article" class="article-img" style="background-image: url('')">
+			                        <div class="badge">Category</div>
+		                        </a>
+			                        	
+				                <div class="article-body">
+				                    <h2 class="h4"><a href="/article">Title</a></h2>
+				                    <p class="small">
+				                        <strong>Tags</strong>
+				                        <span>#tag.Title</span>
+				                        <span>•</span>
+				                        <strong>Published</strong> yyyy-MM-dd
+				                    </p>
+				                    
+				                    <div class="article-copy">
+					                    <p>Copy</p>
+					                </div>
+				
+				                    <a href="/article" class="btn bt-sm btn-primary">Read more</a>
+				                </div>
+			                </div>
+		                </article>
+		                
+			        </div>
+		        </div>
+	        </div>    
+	    </div>
+	</div>
+</section>
+
+@section Scripts {
+
+}
+
+@section Modals {
+	
+}
