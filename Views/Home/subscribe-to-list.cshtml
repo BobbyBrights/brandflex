@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Subscribe";
+    ViewBag.MetaDescription = "Get all our updates, exclusive deals and access to the Brandflex Brandbook and other resources.";
+}
+
+<section class="section">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12 text-center">
+				<div class="h1">🔥</div>
+				<h1 class="display-1 mt-4">@ViewData["Title"].</h1>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section pt-0">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-8 mx-auto">
+				<div class="box box-i text-white">
+					<div class="left">
+						<h2>Get Branflex updates</h2>
+						<p><b>@ViewBag.MetaDescription</b></p>
+						<partial name="Subscribe" />
+					</div>
+					<div class="right"></div>
+				</div>
+				<p><small>We use Mailchimp as our marketing platform. By clicking to download, you acknowledge that your information will be transferred to Mailchimp for processing. <a href="https://mailchimp.com/legal/" target="_blank">Learn more</a> about Mailchimp's privacy practices here.</small></p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+
+
+
+@section Scripts {
+
+}
+
+@section Modals {
+	
+}

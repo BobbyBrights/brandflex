@@ -1,6 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Privacy Policy";
-    Layout = "~/Views/Shared/_LayoutClean.cshtml";
+    ViewBag.MetaDescription = "Home Page Description";
 }
 
 <style>
@@ -12,19 +12,22 @@
 </style>
 
 
-<section class="bg-black">
-	<div class="wrap vh-100">
-		<div class="content center-center text-white">
-			<h1 class="display-1">@ViewData["Title"]</h1>
-			<div class="max-width mx-auto mt-4">
-				<div class="">Last updated: June 09, 2020.</div>
+<section class="section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<div class="h1">📕</div>
+				<h1 class="display-1 mt-4">@ViewData["Title"].</h1>
+				<div class="max-width mx-auto mt-4">
+					<div class="">@ViewBag.MetaDescription</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="section">
-	<div class="container-fluid">
+<section class="section pt-0">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
@@ -34,7 +37,7 @@
 	</div>
 </section>
 <section class="section pt-0">
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 <h1>Interpretation and Definitions</h1>
@@ -90,7 +93,7 @@ The following definitions shall have the same meaning regardless of whether they
 	</div>
 </section>
 <section class="section pt-0">
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 
@@ -186,7 +189,7 @@ The following definitions shall have the same meaning regardless of whether they
 	</div>
 </section>
 <section class="section pt-0">
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 <h1>Your California Privacy Rights</h1> 
@@ -198,7 +201,7 @@ The following definitions shall have the same meaning regardless of whether they
 	</div>
 </section>
 <section class="section pt-0">
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 <h1>California Privacy Rights for Minor Users</h1> 
@@ -211,7 +214,7 @@ The following definitions shall have the same meaning regardless of whether they
 	</div>
 </section>
 <section class="section pt-0">
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 <h1>Links to Other Websites</h1>
@@ -222,7 +225,7 @@ The following definitions shall have the same meaning regardless of whether they
 	</div>
 </section>
 <section class="section pt-0">
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 <h1>Changes to this Privacy Policy</h1>
@@ -234,7 +237,7 @@ The following definitions shall have the same meaning regardless of whether they
 	</div>
 </section>
 <section class="section pt-0">
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 <h1>Contact Us</h1>

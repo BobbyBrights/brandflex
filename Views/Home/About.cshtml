@@ -3,16 +3,16 @@
     ViewBag.MetaDescription = "Home Page Description";
 }
 
-
-<section class="vh-80">
-	<div class="wrap">
-		<div class="content center-center">
-			<img src="~/images/logo/brand-brandmark-color.svg" height="60px">
-			<h1 class="display-1 mt-4">@ViewData["Title"].</h1>
-			<div class="max-width mx-auto mt-4">
-				<div class="">@ViewBag.MetaDescription</div>
+<section class="section">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<div class="h1">😎</div>
+				<h1 class="display-1 mt-4">@ViewData["Title"].</h1>
+				<div class="max-width mx-auto mt-4">
+					<div class="">@ViewBag.MetaDescription</div>
+				</div>
 			</div>
-			<a href="" class="btn btn-primary mt-4"><i class="fas fa-headset mr-2"></i>CTA</a>
 		</div>
 	</div>
 </section>
@@ -249,6 +249,10 @@
 	</div>
 </section>
 *@
+
+
+<partial name="Funnel" />
+
 
 @section Scripts {
 	<script src="~/vendors/simpleParallax/simpleParallax.min.js"></script>
