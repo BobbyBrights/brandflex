@@ -9,7 +9,8 @@
 	.navbar-brand {
 		opacity: 1;
 		transition: $transition-base;
-		font-weight: 400;
+		font-weight: 300;
+		font-family: $headings-font-family;
 		//color: $white;
 		&:hover {
 			opacity: .5;
@@ -38,10 +39,21 @@
 			.nav-link {
 				padding: 0 1rem;
 				line-height: 50px;
+				font-weight: 600;
 				cursor: pointer;
-				//font-size: 80%;
-				font-weight: 400;
+				font-size: 80%;
+				&.active {
+					color: $primary;
+				}
 			}
+		}
+	}
+	.dropdown-menu {
+		border: none;
+		box-shadow: 0 12px 21px -11px rgba($black,.5);
+		.dropdown-item {
+			font-weight: 600;
+			font-size: 80%;
 		}
 	}
 }

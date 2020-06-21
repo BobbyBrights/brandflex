@@ -1,0 +1,61 @@
+.testimonials {
+	.testimonial {
+		text-align: center;
+		padding: 0 5rem;
+		.avatar {
+			margin: 2rem auto;
+			text-align: center;
+			width: 100px;
+			img {
+				border-radius: 50%;
+				width: 100px;
+			}
+		}
+		.copy {
+			
+		}
+		.card-title {
+			
+		}
+		.text-muted {
+			
+		}
+		.footer {
+			i {
+				
+			}
+		}
+	}
+	.slick-arrow {
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		background: rgba($white,.75);
+		transition: $transition-base;
+		box-shadow: 0 1px 1.5px 0 rgba($black,.12), 0 1px 1px 0 rgba($black,.24);
+		&:hover {
+			box-shadow: 0 12px 21px -11px rgba($black,.5);
+		}
+		&:before {
+			font-family: "Font Awesome 5 Pro";
+		    font-weight: 900;
+		    content: "\f178";
+		    color: $primary;
+		}
+		&.slick-prev {
+			&:before {
+			    content: "\f053";
+			}
+		}
+		&.slick-next {
+			&:before {
+			    content: "\f054";
+			}
+		}
+	}
+	&:hover {
+		.slick-arrow {
+			background: rgba($white,.9);
+		}
+	}
+}

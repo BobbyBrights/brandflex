@@ -190,3 +190,42 @@
 				-webkit-transform: rotate(359deg);
 		}
 }
+
+
+
+
+.insta-section {
+	position: relative;
+	background: radial-gradient($dark, $black);
+	@include media-breakpoint-down(lg) {
+		padding-bottom: 0;
+	}
+	.lead {
+		font-weight: 600;
+	}
+	.insta-img {
+		display: none;
+		@include media-breakpoint-up(lg) {
+			margin-top: -200px;
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%) rotate(5deg);
+			display: block;
+		}
+	}
+	&:after {
+	    content: "";
+	    position: absolute;
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    background-image: url("../images/base-body-overlay.gif");
+	    opacity: 0.06;
+	    pointer-events: none;
+	    z-index: 2;
+	}
+	* {
+		z-index: 3;
+	}
+}

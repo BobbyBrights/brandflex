@@ -62,3 +62,6 @@
 /Users/wernergriesel/Projects/brandflex/obj/Debug/netcoreapp2.2/Razor/Views/Shared/SubscribeBrandbook.cshtml.g.cs
 /Users/wernergriesel/Projects/brandflex/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Synergy.cshtml.g.cs
 /Users/wernergriesel/Projects/brandflex/obj/Debug/netcoreapp2.2/Razor/Views/Home/subscribe-to-list.cshtml.g.cs
+/Users/wernergriesel/Projects/brandflex/obj/Debug/netcoreapp2.2/brandflex.csproj.CoreCompileInputs.cache
+/Users/wernergriesel/Projects/brandflex/obj/Debug/netcoreapp2.2/Razor/Views/Home/resources.cshtml.g.cs
+/Users/wernergriesel/Projects/brandflex/obj/Debug/netcoreapp2.2/brandflex.genruntimeconfig.cache

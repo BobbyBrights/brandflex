@@ -1,4 +1,6 @@
 .process {
+	position: relative;
+	//background: radial-gradient($dark, $black);
 	.card {
 		transition: $transition-base;
 		position: relative;
@@ -52,6 +54,7 @@
 		.card-body {
 			z-index: 2;
 			position: relative;
+			overflow: hidden;
 			h5 {
 				span {
 					font-weight: 400;

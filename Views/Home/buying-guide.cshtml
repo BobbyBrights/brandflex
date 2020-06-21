@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "Buying Guide";
+    ViewBag.MetaDescription = "All of theses products, services & companies listed below are those we worked with and can attest to their quality.";
+}
+
+
+<section class="section">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<div class="h1">🧭</div>
+				<h1 class="display-1 mt-4">@ViewData["Title"].</h1>
+				<div class="max-width mx-auto mt-4">
+					<div class="">@ViewBag.MetaDescription</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section resources pt-0">
+	<div class="container-fluid">
+	    <div class="row justify-content-center">
+		    <div class="col-md-12">
+			    <div class="filter">
+				    <button type="button" data-filter="all">All</button>
+					<button type="button" data-filter=".category-a">Category A</button>
+					<button type="button" data-filter=".category-b">Category B</button>
+					<button type="button" data-filter=".category-c">Category C</button>
+			    </div>
+		    </div>
+	    </div>
+	    <div class="row justify-content-center">
+		    <div class="col-md-12">
+			    <div class="row mixing-it-up">
+				    
+				    <div class="mix col-md-4 col-lg-3 category-a">
+		                <div class="card mb-4">
+			                <a href="https://yellowimages.com/?yi=116527" target="_blank" class="card-body text-center">
+				                <h2 class="h5 text-dark">Yellow Images</h2>
+				                <img src="~/images/resources/yellow-images.png" class="">
+				                <p class="mt-3 text-dark">Exclusive object mockups and graphic assets from independent creators.</p>
+					            <div class="btn btn-sm btn-primary">Yellow Images</div>
+			                </a>
+		                </div>
+				    </div>
+				    
+				    <div class="mix col-md-4 col-lg-3 category-a">
+		                <div class="card mb-4">
+			                <a href="https://yellowimages.com/?yi=116527" target="_blank" class="card-body text-center">
+				                <h2 class="h5 text-dark">Yellow Images</h2>
+				                <img src="~/images/resources/yellow-images.png" class="">
+				                <p class="mt-3 text-dark">Exclusive object mockups and graphic assets from independent creators.</p>
+					            <div class="btn btn-sm btn-primary">Yellow Images</div>
+			                </a>
+		                </div>
+				    </div>
+				    
+				</div>
+		    </div>
+	    </div>
+	          
+	    </div>
+	    <div class="row justify-content-center mt-5">
+	        <div class="col-md-8 text-center">
+				<p><b>Disclaimer:</b> This page contains affiliate links to products. Keep in mind that I may receive commissions when you click my links and make purchases. However, this does not impact my reviews and opinions.</p>
+	        </div>
+	    </div>
+	</div>
+</section>
+
+
+<partial name="Funnel" />
+
+@section Scripts {
+	<script src="~/vendors/mixitup/mixitup.min.js"></script>
+	<script>
+		var mixer = mixitup('.mixing-it-up');
+	</script>
+}
+
+@section Modals {
+	
+}

@@ -7,9 +7,11 @@
 @import "skin/base";
 
 // Fonts
-@import "fonts/gilroy";
-@import "fonts/brand";
-@import "fonts/tusker";
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Khula:wght@300;400;600;700;800&display=swap');
+//@import "fonts/gilroy";
+//@import "fonts/brand";
+//@import "fonts/tusker";
+@import "fonts/cooper";
  
 // Bootstrap
 @import "bootstrap/functions";
@@ -29,6 +31,7 @@
 @import "bootstrap-overrides/media";
 
 // Vendor Overrides
+@import "vendor-overrides/mixitup";
 @import "vendor-overrides/slick";
 @import "vendor-overrides/slick-theme";
 
@@ -41,6 +44,7 @@
 @import "skin/navbar";
 @import "skin/sidebar";
 @import "skin/teaser";
+@import "skin/testimonial";
 
 // Pages
 @import "pages/cases";

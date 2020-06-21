@@ -5,6 +5,7 @@
 	border-radius: 6px;
 	font-weight: 600;
 	transition: $transition-base;
+	font-family: $headings-font-family;
 	&:hover {
 		transform: translateY(-4px);
 		box-shadow: 0 12px 21px -11px rgba($black,.5);
@@ -18,5 +19,18 @@
 	&.btn-sm {
 		box-shadow: none;
 		border-radius: 3rem;
+	}
+}
+
+
+.more {
+	font-family: $headings-font-family;
+	i {
+		transform: $transition-base;
+	}
+	&:hover {
+		i {
+			transform: translateX(6px);
+		}
 	}
 }

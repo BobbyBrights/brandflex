@@ -102,6 +102,9 @@ body {
 		padding: 4rem 0;
 	}
 }
+.section-sm {
+	padding: 4rem 0;
+}
 
 .max-width {
     max-width: 700px; 
@@ -348,7 +351,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
-	&:after {
+	&:before {
 		position: absolute;
 		z-index: 1;
 		background: rgba(#000,0.6);
@@ -357,6 +360,18 @@ body {
 		left: 0;
 		top: 0;
 		content: "";
+	}
+	&:after {
+	    content: "";
+	    position: absolute;
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    background-image: url("../images/base-body-overlay.gif");
+	    opacity: 0.06;
+	    pointer-events: none;
+	    z-index: 2;
 	}
 	* {
 		z-index: 2;
