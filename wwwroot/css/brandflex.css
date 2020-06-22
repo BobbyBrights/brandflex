@@ -12763,9 +12763,6 @@ body {
     padding-bottom: 0;
   }
 }
-.insta-section .lead {
-  font-weight: 600;
-}
 .insta-section .insta-img {
   display: none;
 }
@@ -12812,15 +12809,15 @@ body {
   position: relative;
 }
 .scene .splash1 {
-  width: 507px;
-  height: 523px;
+  width: 400px;
+  height: 380px;
   top: 50%;
   left: 50%;
   background: url("../images/discovery/splash1.png") no-repeat center center transparent;
 }
 .scene .splash2 {
-  width: 525px;
-  height: 499px;
+  width: 400px;
+  height: 413px;
   top: 50%;
   left: 50%;
   background: url("../images/discovery/splash2.png") no-repeat center center transparent;
@@ -12848,4 +12845,27 @@ body {
   left: 50%;
   margin-left: 100px;
   background: url("../images/discovery/identity.png") no-repeat center center transparent;
+}
+.scene .yoda {
+  width: 450px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  margin-left: -100px;
+  background: url("../images/story/yoda.png") no-repeat center center transparent;
+}
+.scene .book {
+  width: 636px;
+  height: 477px;
+  top: 50%;
+  left: 50%;
+  background: url("../images/story/book.png") no-repeat center center transparent;
+}
+.scene .badgeUp {
+  width: 450px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  background: url("../images/story/badge.png") no-repeat center center transparent;
 }
