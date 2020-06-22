@@ -1,5 +1,8 @@
 body {
 	overflow-x: hidden;
+	@include media-breakpoint-down(md) {
+		padding-top: 80px;
+	}
 }
 
 .intro {
