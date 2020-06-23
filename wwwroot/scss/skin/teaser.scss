@@ -40,7 +40,7 @@
 			animation: move-arrows .5s linear infinite;
 			background: $primary;
 			transform-origin: 0;
-			@include media-breakpoint-down(md) {
+			@include media-breakpoint-down(lg) {
 				left: 50%;
 				transform: rotate(90deg);
 				top: 100%;

@@ -10370,6 +10370,18 @@ button.close {
   transform: translateY(-4px);
   box-shadow: 0 12px 21px -11px rgba(0, 0, 0, 0.5);
 }
+@media (max-width: 767.98px) {
+  .btn, .filter button {
+    box-shadow: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: block;
+    width: 100%;
+  }
+  .btn span, .filter button span {
+    display: none;
+  }
+}
 .btn.btn-sm, .filter button, .btn-group-sm > .btn, .filter .btn-group-sm > button {
   box-shadow: none;
   border-radius: 3rem;
@@ -11885,7 +11897,7 @@ body {
   background: #ff0737;
   transform-origin: 0;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 991.98px) {
   .process .card:after, .process .article:after {
     left: 50%;
     transform: rotate(90deg);

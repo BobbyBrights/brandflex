@@ -11,10 +11,14 @@
 		box-shadow: 0 12px 21px -11px rgba($black,.5);
 	}
 	@include media-breakpoint-down(md) {
-		//box-shadow: none;
-		//padding: 0 1rem;
-		//display: block;
-		//width: 100%;
+		box-shadow: none;
+		padding-left: 1rem;
+		padding-right: 1rem;
+		display: block;
+		width: 100%;
+		span {
+			display: none;
+		}
 	}
 	&.btn-sm {
 		box-shadow: none;
