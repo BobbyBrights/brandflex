@@ -23,3 +23,18 @@
 	    pointer-events: none;
 	}
 }
+
+.bg-light-gradient {
+	background: radial-gradient($gray-200, $gray-400);
+	&:before {
+	    content: "";
+	    position: absolute;
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    background-image: url("../images/base-body-overlay.gif");
+	    opacity: .06;
+	    pointer-events: none;
+	}
+}

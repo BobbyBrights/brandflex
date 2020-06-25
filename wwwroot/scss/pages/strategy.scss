@@ -79,4 +79,76 @@
 		margin-top: -150px;
 		background: url("../images/story/badge.png") no-repeat center center transparent;
 	}
+	.fb {
+		width: 300px;
+		height: 378px;
+		top: 50%;
+		left: 50%;
+		background: url("../images/social/fb.png") no-repeat center center transparent; 
+		box-shadow: 0 12px 21px -11px rgba(0, 0, 0, 0.5);
+		&.I {
+			margin-top: 40px;
+			margin-left: 40px;
+			opacity: .5;
+		}
+		&.II {
+			margin-top: 20px;
+			margin-left: 20px;
+			opacity: .9;
+		}
+	}
+	.like-left {
+		width: 89px;
+		height: 118px;
+		top: 50%;
+		left: 50%;
+		margin-top: 210px;
+		margin-left: -70px;
+		background: url("../images/social/like-left.png") no-repeat center center transparent;
+	}
+	.like-right {
+		width: 132px;
+		height: 129px;
+		top: 50%;
+		left: 50%;
+		margin-top: 210px;
+		margin-left: 270px;
+		background: url("../images/social/like-right.png") no-repeat center center transparent;
+	}
+	.ig {
+		width: 285px;
+		height: 435px;
+		top: 50%;
+		left: 50%;
+		background: url("../images/social/ig.png") no-repeat center center transparent; 
+		box-shadow: 0 12px 21px -11px rgba(0, 0, 0, 0.5);
+		&.I {
+			margin-top: 40px;
+			margin-left: 40px;
+			opacity: .5;
+		}
+		&.II {
+			margin-top: 20px;
+			margin-left: 20px;
+			opacity: .9;
+		}
+	}
+	.heart-left {
+		width: 118px;
+		height: 214px;
+		top: 50%;
+		left: 50%;
+		margin-top: 190px;
+		margin-left: -70px;
+		background: url("../images/social/heart-left.png") no-repeat center center transparent;
+	}
+	.heart-right {
+		width: 97px;
+		height: 217px;
+		top: 50%;
+		left: 50%;
+		margin-top: 190px;
+		margin-left: 270px;
+		background: url("../images/social/heart-right.png") no-repeat center center transparent;
+	}
 }

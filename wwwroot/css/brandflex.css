@@ -10433,6 +10433,21 @@ button.close {
   pointer-events: none;
 }
 
+.bg-light-gradient {
+  background: radial-gradient(#e9ecef, #ced4da);
+}
+.bg-light-gradient:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../images/base-body-overlay.gif");
+  opacity: 0.06;
+  pointer-events: none;
+}
+
 .contact-card .form-group {
   margin-bottom: 1rem;
 }
@@ -12946,4 +12961,76 @@ body {
   left: 50%;
   margin-top: -150px;
   background: url("../images/story/badge.png") no-repeat center center transparent;
+}
+.scene .fb {
+  width: 300px;
+  height: 378px;
+  top: 50%;
+  left: 50%;
+  background: url("../images/social/fb.png") no-repeat center center transparent;
+  box-shadow: 0 12px 21px -11px rgba(0, 0, 0, 0.5);
+}
+.scene .fb.I {
+  margin-top: 40px;
+  margin-left: 40px;
+  opacity: 0.5;
+}
+.scene .fb.II {
+  margin-top: 20px;
+  margin-left: 20px;
+  opacity: 0.9;
+}
+.scene .like-left {
+  width: 89px;
+  height: 118px;
+  top: 50%;
+  left: 50%;
+  margin-top: 210px;
+  margin-left: -70px;
+  background: url("../images/social/like-left.png") no-repeat center center transparent;
+}
+.scene .like-right {
+  width: 132px;
+  height: 129px;
+  top: 50%;
+  left: 50%;
+  margin-top: 210px;
+  margin-left: 270px;
+  background: url("../images/social/like-right.png") no-repeat center center transparent;
+}
+.scene .ig {
+  width: 285px;
+  height: 435px;
+  top: 50%;
+  left: 50%;
+  background: url("../images/social/ig.png") no-repeat center center transparent;
+  box-shadow: 0 12px 21px -11px rgba(0, 0, 0, 0.5);
+}
+.scene .ig.I {
+  margin-top: 40px;
+  margin-left: 40px;
+  opacity: 0.5;
+}
+.scene .ig.II {
+  margin-top: 20px;
+  margin-left: 20px;
+  opacity: 0.9;
+}
+.scene .heart-left {
+  width: 118px;
+  height: 214px;
+  top: 50%;
+  left: 50%;
+  margin-top: 190px;
+  margin-left: -70px;
+  background: url("../images/social/heart-left.png") no-repeat center center transparent;
+}
+.scene .heart-right {
+  width: 97px;
+  height: 217px;
+  top: 50%;
+  left: 50%;
+  margin-top: 190px;
+  margin-left: 270px;
+  background: url("../images/social/heart-right.png") no-repeat center center transparent;
 }
