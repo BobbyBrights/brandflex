@@ -8,7 +8,7 @@
 	<div class="wrap">
 		<div class="content center-center">
 			<img src="~/images/logo/brand-brandmark-color.svg" height="60px">
-			<h1 class="display-1 mt-4">Anyone can be a hero if you tell the (brand) story right..🔥</h1>
+			<h1 class="display-3">Anyone can be a hero if you tell the (brand) story right..🔥</h1>
 			<div class="max-width mx-auto mt-4">
 				<div class="">Brandflex helps your business develop a character and connect to your ideal audience through <b>Technology</b>, <b>Data</b> and <b>Storytelling</b>.<br>How can we help you?</div>
 			</div>
@@ -16,6 +16,8 @@
 		</div>
 	</div>
 </section>
+			
+			
 
 <partial name="Services" />
 
@@ -150,6 +152,11 @@
 	<script src="~/vendors/slick/slick.min.js"></script>
 	<script>
 		$('.testimonials').slick();
+	</script>
+	<script src="~/vendors/parallax/parallax.js"></script>
+	<script>
+		var sceneI = document.getElementById('sceneI');
+		var parallax = new Parallax(sceneI);
 	</script>
 }
 

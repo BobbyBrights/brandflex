@@ -12087,6 +12087,59 @@ body {
   line-height: 40px;
 }
 
+.home-scene {
+  position: relative;
+  overflow: hidden;
+  background: #000;
+  min-height: 500px;
+}
+.home-scene .scene, .home-scene .layer {
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.home-scene .scene {
+  position: absolute;
+  z-index: 1;
+}
+.home-scene .scene .background {
+  background: url("../images/brandflex.jpg") no-repeat 50% 100%;
+  bottom: 0;
+  background-size: cover;
+  position: absolute;
+  width: 110%;
+  left: -5%;
+  top: -5%;
+}
+.home-scene .scene .background:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url("../images/base-body-overlay.gif");
+  opacity: 0.06;
+  pointer-events: none;
+  z-index: 2;
+}
+.home-scene .scene .background:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  z-index: 1;
+}
+.home-scene .wrap {
+  z-index: 2;
+}
+
 .intro .wrap {
   position: relative;
   z-index: 3;
@@ -12915,6 +12968,13 @@ body {
   left: 50%;
   background: url("../images/discovery/splash2.png") no-repeat center center transparent;
 }
+.scene .splash3 {
+  width: 400px;
+  height: 413px;
+  top: 50%;
+  left: 50%;
+  background: url("../images/discovery/splash3.png") no-repeat center center transparent;
+}
 .scene .core {
   width: 398px;
   height: 495px;
@@ -12922,6 +12982,13 @@ body {
   left: 50%;
   margin-left: 100px;
   background: url("../images/discovery/core.png") no-repeat center center transparent;
+}
+.scene .first {
+  width: 398px;
+  height: 495px;
+  top: 50%;
+  left: 50%;
+  background: url("../images/first.png") no-repeat center center transparent;
 }
 .scene .story {
   width: 278px;
