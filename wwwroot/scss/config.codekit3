@@ -1088,6 +1088,19 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/fonts/cooper copy.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/fonts/cooper copy.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/fonts/cooper.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1292,6 +1305,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/skin/navbar.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/skin/resources.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/skin/resources.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0

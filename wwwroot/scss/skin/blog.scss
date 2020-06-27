@@ -42,3 +42,70 @@
 	}
 }
 
+figcaption {
+	text-align: center;
+	display: inline-block;
+	max-width: 700px;
+	margin: 20px auto;
+	color: $text-muted;
+	font-size: 70%;
+	background: $gray-100;
+	padding: 0 1rem; 
+}
+	
+.blog-copy {
+	section {
+		padding: 4rem 0;
+	}
+	p {
+		font-family: $headings-font-family;
+		font-size: $lead-font-size;
+		font-weight: $lead-font-weight;
+	}
+	h1, h2, h3, h4 {
+		margin-top: 2rem; 
+		margin-bottom: 2rem; 
+	}
+	h2 {
+		font-weight: 600;
+	}
+	hr {
+		text-align: center;
+		margin: 40px auto;
+		height: auto;
+		background: none;
+		opacity: 1;
+		&:before {
+		    line-height: 1.4;
+		    text-indent: 0.6em;
+		    letter-spacing: 0.6em;
+		    content: "...";
+		    box-sizing: inherit;
+		    color: $body-color;
+		}
+	}
+	blockquote {
+		//box-shadow: inset 3px 0 0 0 rgba($primary, 1);
+		padding: 1rem;
+		background: $gray-100;
+		border-radius: 4px;
+		p {
+			font-style: italic;
+		}
+		.blockquote-footer {
+		    display: block;
+		    font-size: 80%;
+		    color: $text-muted;
+		    text-align: right;
+		    margin-top: 1rem;
+		    font-family: $headings-font-family;
+		}
+	}
+}
+
+.references {
+	font-size: 80%;
+	i {
+		color: $primary;
+	}
+}

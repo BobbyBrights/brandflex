@@ -1,20 +1,28 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3919590, 2020-06-27T10:49:45-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: CooperLtBTWXX-Light by Bitstream
+ * URL: https://www.myfonts.com/fonts/bitstream/cooper/std-light/
+ * Copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
+ * 
+ * 
+ * 
+ * © 2020 MyFonts Inc
+*/
+
+/* @import must be at top of file, otherwise CSS will not work */
+
+@import url("//hello.myfonts.net/count/3bcee6");
+
 @font-face {
-	font-display:fallback;
-	font-family:Cooper;
-	font-style:normal;
-	font-weight:300;
-	src:url("../fonts/cooper/CooperBTW03-Light.eot");
-	src:url("../fonts/cooper/CooperBTW03-Light.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/cooper/CooperBTW03-Light.woff2") format("woff"),
-		url("../fonts/cooper/CooperBTW03-Light.woff") format("woff")
-}
-@font-face{
-	font-display:fallback;
-	font-family:Cooper;
-	font-style:normal;
-	font-weight:500;
-	src:url("../fonts/cooper/CooperBTW03-Md.eot");
-	src:url("../fonts/cooper/CooperBTW03-Md.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/cooper/CooperBTW03-Md.woff2") format("woff"),
-		url("../fonts/cooper/CooperBTW03-Md.woff") format("woff")
+	font-family: 'CooperLtBTWXX-Light';
+	src: url('../fonts/CooperLtBTWXX-Light/font.woff2') format('woff2'), 
+		 url('../fonts/CooperLtBTWXX-Light/font.woff') format('woff');
 }

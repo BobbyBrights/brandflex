@@ -4,6 +4,7 @@
  * Copyright 2020 Brandflex
  */
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Khula:wght@300;400;600;700;800&display=swap");
+@import url("//hello.myfonts.net/count/3bcee6");
 html, html a, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -21,21 +22,28 @@ html {
   font-size: 18px;
 }
 
+/**
+ * @license
+ * MyFonts Webfont Build ID 3919590, 2020-06-27T10:49:45-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: CooperLtBTWXX-Light by Bitstream
+ * URL: https://www.myfonts.com/fonts/bitstream/cooper/std-light/
+ * Copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
+ * 
+ * 
+ * 
+ * © 2020 MyFonts Inc
+*/
+/* @import must be at top of file, otherwise CSS will not work */
 @font-face {
-  font-display: fallback;
-  font-family: Cooper;
-  font-style: normal;
-  font-weight: 300;
-  src: url("../fonts/cooper/CooperBTW03-Light.eot");
-  src: url("../fonts/cooper/CooperBTW03-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/cooper/CooperBTW03-Light.woff2") format("woff"), url("../fonts/cooper/CooperBTW03-Light.woff") format("woff");
-}
-@font-face {
-  font-display: fallback;
-  font-family: Cooper;
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/cooper/CooperBTW03-Md.eot");
-  src: url("../fonts/cooper/CooperBTW03-Md.eot?#iefix") format("embedded-opentype"), url("../fonts/cooper/CooperBTW03-Md.woff2") format("woff"), url("../fonts/cooper/CooperBTW03-Md.woff") format("woff");
+  font-family: "CooperLtBTWXX-Light";
+  src: url("../fonts/CooperLtBTWXX-Light/font.woff2") format("woff2"), url("../fonts/CooperLtBTWXX-Light/font.woff") format("woff");
 }
 /*!
  * Bootstrap v5.0.0-alpha1 (https://getbootstrap.com/)
@@ -110,8 +118,8 @@ hr:not([size]) {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
-  font-family: "Cooper", "Bree Serif";
-  font-weight: 600;
+  font-family: "CooperLtBTWXX-Light";
+  font-weight: 300;
   line-height: 1.2;
 }
 
@@ -198,7 +206,7 @@ ul ol {
 }
 
 dt {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 dd {
@@ -212,7 +220,7 @@ blockquote {
 
 b,
 strong {
-  font-weight: bolder;
+  font-weight: 600;
 }
 
 small, .small {
@@ -294,7 +302,7 @@ kbd {
 kbd kbd {
   padding: 0;
   font-size: 1em;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 figure {
@@ -4537,7 +4545,7 @@ progress {
   display: inline-block;
   padding: 0.25em 0.5em;
   font-size: 0.75em;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1;
   color: #fff;
   text-align: center;
@@ -4567,7 +4575,7 @@ progress {
 }
 
 .alert-link {
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .alert-dismissible {
@@ -5069,7 +5077,7 @@ progress {
 
 .close {
   font-size: calc(1.275rem + 0.3vw);
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1;
   color: #000;
   text-shadow: 0 1px 0 #fff;
@@ -6096,7 +6104,7 @@ button.close {
   content: "";
 }
 
-.text-truncate {
+.text-truncate, .resources .mix h2, .resources .mix .h2 {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -6937,11 +6945,11 @@ button.close {
 }
 
 .font-weight-bold {
-  font-weight: 700 !important;
+  font-weight: 600 !important;
 }
 
 .font-weight-bolder {
-  font-weight: bolder !important;
+  font-weight: 600 !important;
 }
 
 .text-lowercase {
@@ -10363,7 +10371,7 @@ button.close {
   border-radius: 3rem;
   font-weight: 600;
   transition: all 0.2s ease-in-out;
-  font-family: "Cooper", "Bree Serif";
+  font-family: "CooperLtBTWXX-Light";
 }
 .btn:hover, .filter button:hover {
   transform: translateY(-4px);
@@ -10388,7 +10396,7 @@ button.close {
 }
 
 .more {
-  font-family: "Cooper", "Bree Serif";
+  font-family: "CooperLtBTWXX-Light";
 }
 .more i {
   transform: all 0.2s ease-in-out;
@@ -11155,6 +11163,71 @@ button.close {
   height: 108px;
 }
 
+figcaption {
+  text-align: center;
+  display: inline-block;
+  max-width: 700px;
+  margin: 20px auto;
+  color: #6c757d;
+  font-size: 70%;
+  background: #f8f9fa;
+  padding: 0 1rem;
+}
+
+.blog-copy section {
+  padding: 4rem 0;
+}
+.blog-copy p {
+  font-family: "CooperLtBTWXX-Light";
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.blog-copy h1, .blog-copy .h1, .blog-copy h2, .blog-copy .h2, .blog-copy h3, .blog-copy .h3, .blog-copy h4, .blog-copy .h4 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.blog-copy h2, .blog-copy .h2 {
+  font-weight: 600;
+}
+.blog-copy hr {
+  text-align: center;
+  margin: 40px auto;
+  height: auto;
+  background: none;
+  opacity: 1;
+}
+.blog-copy hr:before {
+  line-height: 1.4;
+  text-indent: 0.6em;
+  letter-spacing: 0.6em;
+  content: "...";
+  box-sizing: inherit;
+  color: #212529;
+}
+.blog-copy blockquote {
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 4px;
+}
+.blog-copy blockquote p {
+  font-style: italic;
+}
+.blog-copy blockquote .blockquote-footer {
+  display: block;
+  font-size: 80%;
+  color: #6c757d;
+  text-align: right;
+  margin-top: 1rem;
+  font-family: "CooperLtBTWXX-Light";
+}
+
+.references {
+  font-size: 80%;
+}
+.references i {
+  color: #ff0737;
+}
+
 .brandbook h2, .brandbook .h2, .brandbook h3, .brandbook .h3, .brandbook h4, .brandbook .h4 {
   pointer-events: none;
 }
@@ -11225,7 +11298,7 @@ button.close {
 }
 
 .lead {
-  font-family: "Cooper", "Bree Serif";
+  font-family: "CooperLtBTWXX-Light";
 }
 
 .font-lg {
@@ -11754,7 +11827,7 @@ body {
   opacity: 1;
   transition: all 0.2s ease-in-out;
   font-weight: 300;
-  font-family: "Cooper", "Bree Serif";
+  font-family: "CooperLtBTWXX-Light";
 }
 .navbar .navbar-brand:hover {
   opacity: 0.5;
@@ -11796,6 +11869,18 @@ body {
 .navbar .dropdown-menu .dropdown-item {
   font-weight: 600;
   font-size: 80%;
+}
+
+.resources .mix h2, .resources .mix .h2 {
+  display: block;
+  width: 100%;
+}
+.resources .mix p {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  height: 54px;
 }
 
 .sidebar {

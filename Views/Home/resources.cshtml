@@ -1,6 +1,6 @@
 ﻿@{
-    ViewData["Title"] = "Resources";
-    ViewBag.MetaDescription = "All of theses products, services & companies listed below are those we worked with and can attest to their quality.";
+    ViewData["Title"] = "Some great resources";
+    ViewBag.MetaDescription = "All of theses products, services & companies listed below are those we worked with, read or used and can attest to their quality.";
 }
 
 
@@ -8,8 +8,8 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<div class="h1">🧭</div>
-				<h1 class="display-1 mt-4">@ViewData["Title"].</h1>
+				<img src="~/images/logo/brand-brandmark-color.svg" height="60px">
+				<h1 class="display-1 mt-4">@ViewData["Title"]</h1>
 				<div class="max-width mx-auto mt-4">
 					<div class="">@ViewBag.MetaDescription</div>
 				</div>
@@ -24,9 +24,8 @@
 		    <div class="col-md-12">
 			    <div class="filter">
 				    <button type="button" data-filter="all">All</button>
-					<button type="button" data-filter=".category-a">Category A</button>
-					<button type="button" data-filter=".category-b">Category B</button>
-					<button type="button" data-filter=".category-c">Category C</button>
+					<button type="button" data-filter=".resourse">Resources</button>
+					<button type="button" data-filter=".book">Books</button>
 			    </div>
 		    </div>
 	    </div>
@@ -34,24 +33,47 @@
 		    <div class="col-md-12">
 			    <div class="row mixing-it-up">
 				    
-				    <div class="mix col-md-4 col-lg-3 category-a">
+				    <div class="mix col-lg-6 col-xl-4 resourse">
 		                <div class="card mb-4">
 			                <a href="https://yellowimages.com/?yi=116527" target="_blank" class="card-body text-center">
 				                <h2 class="h5 text-dark">Yellow Images</h2>
-				                <img src="~/images/resources/yellow-images.png" class="">
+				                <img src="~/images/resources/yellow-images.png" class="img-fluid">
 				                <p class="mt-3 text-dark">Exclusive object mockups and graphic assets from independent creators.</p>
-					            <div class="btn btn-sm btn-primary">Yellow Images</div>
+					            <div class="btn btn-sm btn-primary">Go get it</div>
 			                </a>
 		                </div>
 				    </div>
 				    
-				    <div class="mix col-md-4 col-lg-3 category-a">
+				    <div class="mix col-lg-6 col-xl-4 book">
 		                <div class="card mb-4">
-			                <a href="https://yellowimages.com/?yi=116527" target="_blank" class="card-body text-center">
-				                <h2 class="h5 text-dark">Yellow Images</h2>
-				                <img src="~/images/resources/yellow-images.png" class="">
-				                <p class="mt-3 text-dark">Exclusive object mockups and graphic assets from independent creators.</p>
-					            <div class="btn btn-sm btn-primary">Yellow Images</div>
+			                <a href="https://www.amazon.com/dp/1577315936/ref=cm_sw_em_r_mt_dp_U_7D39EbHARHXVG" target="_blank" class="card-body text-center">
+				                <h2 class="h5 text-dark">The Hero with a Thousand Faces</h2>
+				                <img src="~/images/resources/the-hero-with-a-thousand-faces.png" class="img-fluid">
+				                <p class="mt-3 text-dark">The Hero with a Thousand Faces (The Collected Works of Joseph Campbell) Third Edition</p>
+					            <div class="btn btn-sm btn-primary">Go get it</div>
+			                </a>
+		                </div>
+				    </div>
+				    
+				    <div class="mix col-lg-6 col-xl-4 book">
+		                <div class="card mb-4">
+			                <a href="https://www.amazon.com/dp/1936891549/ref=cm_sw_em_r_mt_dp_U_uQ39EbYYKRNE6" target="_blank" class="card-body text-center">
+				                <h2 class="h5 text-dark">The Artist's Journey</h2>
+				                <img src="~/images/resources/the-artists-journey.png" class="img-fluid">
+				                <p class="mt-3 text-dark">The Wake of the Hero's Journey and the Lifelong Pursuit of Meaning
+by Steven Pressfield</p>
+					            <div class="btn btn-sm btn-primary">Go get it</div>
+			                </a>
+		                </div>
+				    </div>
+				    
+				    <div class="mix col-lg-6 col-xl-4 book">
+		                <div class="card mb-4">
+			                <a href="https://www.amazon.com/dp/B06XFJ2JGR/ref=cm_sw_em_r_mt_dp_U_cZ39Eb1TGPEGK" target="_blank" class="card-body text-center">
+				                <h2 class="h5 text-dark">Building a StoryBrand</h2>
+				                <img src="~/images/resources/building-a-storybrand.png" class="img-fluid">
+				                <p class="mt-3 text-dark">Building a StoryBrand: Clarify Your Message So Customers Will Listen by Donald Miller</p>
+					            <div class="btn btn-sm btn-primary">Go get it</div>
 			                </a>
 		                </div>
 				    </div>

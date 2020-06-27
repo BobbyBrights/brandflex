@@ -68,3 +68,4 @@
 /Users/wernergriesel/Projects/brandflex/obj/Debug/netcoreapp2.2/Razor/Views/Home/buying-guide.cshtml.g.cs
 /Users/wernergriesel/Projects/brandflex/obj/Debug/netcoreapp2.2/Razor/Views/Home/courses.cshtml.g.cs
 /Users/wernergriesel/Projects/brandflex/obj/Debug/netcoreapp2.2/Razor/Views/Shared/FAQ.cshtml.g.cs
+/Users/wernergriesel/Projects/brandflex/obj/Debug/netcoreapp2.2/Razor/Views/Home/brand-storytelling-origins.cshtml.g.cs

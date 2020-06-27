@@ -1,5 +1,5 @@
 ﻿@{
-    ViewData["Title"] = "Blog";
+    ViewData["Title"] = "What we have to say";
     ViewBag.MetaDescription = "Home Page Description";
 }
 
@@ -8,8 +8,8 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<div class="h1">🧐</div>
-				<h1 class="display-1 mt-4">@ViewData["Title"].</h1>
+				<img src="~/images/logo/brand-brandmark-color.svg" height="60px">
+				<h1 class="display-1 mt-4">@ViewData["Title"]...🔥</h1>
 				<div class="max-width mx-auto mt-4">
 					<div class="">@ViewBag.MetaDescription</div>
 				</div>
@@ -19,42 +19,31 @@
 </section>
 
 <section class="section pt-0">
-	<div class="container-fluid body-container">
-	    <div class="row justify-content-center">
-	        <div class="col-12">
-		        
-		        <div class="articles">
-			        <div class="row">
-				        
-		                <article class="col-md-4">
-			                <div class="article mb-4">
-				                
-		                        <a href="/article" class="article-img" style="background-image: url('')">
-			                        <div class="badge">Category</div>
-		                        </a>
-			                        	
-				                <div class="article-body">
-				                    <h2 class="h4"><a href="/article">Title</a></h2>
-				                    <p class="small">
-				                        <strong>Tags</strong>
-				                        <span>#tag.Title</span>
-				                        <span>•</span>
-				                        <strong>Published</strong> yyyy-MM-dd
-				                    </p>
-				                    
-				                    <div class="article-copy">
-					                    <p>Copy</p>
-					                </div>
-				
-				                    <a href="/article" class="btn bt-sm btn-primary">Read more</a>
-				                </div>
-			                </div>
-		                </article>
-		                
-			        </div>
-		        </div>
-	        </div>    
-	    </div>
+	<div class="container-fluid articles">
+		<div class="row align-items-center">
+            <div class="col-md-4">
+                <div class="article mb-4">
+	                
+                    <a href="/brand-storytelling-origins" class="article-img" style="background-image: url('../images/blog/brand-storytelling-origins.jpg')">
+                        <div class="badge">Branding</div>
+                    </a>
+                        	
+	                <div class="article-body">
+	                    <h2 class="h4"><a href="/brand-storytelling-origins">Brand Storytelling Origins</a></h2>
+	                    <p class="small">
+	                        <strong>Published</strong> 2020-06-26
+	                    </p>
+	                    
+	                    <div class="article-copy">
+		                    <p>Your brand story is a tale that involves a hero (your customer) who goes on an adventure, and in a 
+						decisive crisis wins a victory, guided by your brand, and then comes home changed or transformed.</p>
+		                </div>
+	
+	                    <a href="/brand-storytelling-origins" class="btn bt-sm btn-primary">Read more</a>
+	                </div>
+                </div>
+            </div>
+		</div>
 	</div>
 </section>
 
