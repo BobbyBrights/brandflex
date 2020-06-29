@@ -11609,9 +11609,9 @@ body {
   right: 0;
   bottom: 0;
   width: 100%;
-  height: 200px;
-  z-index: 2;
-  background: linear-gradient(0deg, black 0%, rgba(0, 0, 0, 0) 100%);
+  height: 300px;
+  z-index: 3;
+  background: linear-gradient(0deg, white 0%, rgba(255, 255, 255, 0) 100%);
 }
 #container:after {
   content: "";
@@ -11623,7 +11623,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: 2;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(255, 255, 255, 0.3);
 }
 
 #background_video {
@@ -12170,68 +12170,6 @@ body {
 }
 .ideas-slider .media .media-body {
   line-height: 40px;
-}
-
-.home-scene {
-  position: relative;
-  overflow: hidden;
-  background: #000;
-  min-height: 500px;
-}
-.home-scene .scene, .home-scene .layer {
-  display: block;
-  height: 100%;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-}
-.home-scene .scene {
-  position: absolute;
-  z-index: 1;
-}
-.home-scene .scene .background {
-  background: url("../images/brandflex.jpg") no-repeat 50% 100%;
-  bottom: 0;
-  background-size: cover;
-  position: absolute;
-  width: 110%;
-  left: -5%;
-  top: -5%;
-}
-.home-scene .scene .background:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-image: url("../images/base-body-overlay.gif");
-  opacity: 0.06;
-  pointer-events: none;
-  z-index: 2;
-}
-.home-scene .scene .background:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.5);
-  pointer-events: none;
-  z-index: 1;
-}
-.home-scene .wrap {
-  z-index: 2;
-}
-
-.intro .wrap {
-  position: relative;
-  z-index: 3;
-}
-.intro .lead {
-  font-size: 1rem;
-  font-weight: 600;
 }
 
 .service .circle-badge {

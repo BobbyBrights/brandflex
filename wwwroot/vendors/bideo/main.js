@@ -22,11 +22,11 @@
     // of different video formats to add
     src: [
       {
-        src: 'videos/ocean.mp4',
+        src: 'videos/preview.mp4',
         type: 'video/mp4'
       },
       {
-        src: 'videos/ocean.webm',
+        src: 'videos/preview.webm',
         type: 'video/webm;codecs="vp8, vorbis"'
       }
     ],
